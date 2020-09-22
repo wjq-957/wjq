@@ -1,0 +1,222 @@
+html {
+    font-size: 100px;
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    overflow: auto;
+    height: 100%;
+    background: #f5f5f5;
+    font-size: 0.14rem;
+}
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+.clear:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    text-indent: 0.2rem;
+    padding: 0.1rem;
+    background: #0f0f0f6c;
+    line-height: 0.4rem;
+    z-index: 15;
+}
+.navbar a{
+    color: white; 
+    font-size: 0.18rem;
+}
+.navbar .search {
+    border-radius: 0.3rem;
+    background: white;
+    color: gray;
+    display: inline-block;
+    width: 2.5rem;
+    margin-right: 0.2rem;
+}
+
+.navbar .search span {
+    margin-right: 0.05rem;
+    vertical-align: middle;
+    display: inline-block;
+    width: 0.2rem;
+    height: 0.2rem;
+    background-image: url("../images/icon/sprites.png");
+    background-size: 2rem 2rem;
+}
+
+.navbar .search span.icon-1 {
+    background-position: 0 0.015rem;
+}
+
+.navbar .search span.icon-2 {
+    background-position: -0.6rem -1.1rem;
+}
+
+.content .slide-content {
+    position: relative;
+}
+
+.content .slide {
+    width: 30.016rem;
+    height: 1.84rem;
+    position: relative;
+    top: 0px;
+}
+
+.content .slide img {
+    width: 3.752rem;
+    float: left;
+}
+
+.content .point {
+    position: absolute;
+    bottom: 0.05rem;
+    left: 1rem;
+}
+
+.content .point li {
+    margin-left: 0.1rem;
+    width: 0.1rem;
+    height: 0.1rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.white {
+    background: white;
+}
+
+.nav {
+    background: white;
+    padding: 0.2rem 0;
+    text-align: center;
+    margin-bottom: 0.1rem;
+}
+
+.nav li {
+    display: inline-block;
+    width: 0.8rem;
+    height: 0.8rem;
+}
+
+.nav li img {
+    width: 0.4rem;
+    height: 0.4rem;
+}
+
+.adv img {
+    width: 100%;
+}
+
+.adv1 {
+    height: 1.2rem;
+    line-height: 1.2rem;
+    margin-bottom: 0.1rem;;
+}
+
+.adv2 {
+    background: white;
+    padding: 0.1rem;
+    text-align: center;
+}
+.adv2-header{
+    margin-bottom: 0.1rem;;
+}
+.adv2 ul li {
+    width: 0.8rem;
+    display: inline-block;
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+}
+
+.line {
+    text-decoration: line-through;
+    color: #777;
+}
+
+.adv3 {
+    padding: 0.2rem;
+}
+
+.border {
+    margin: 5px;
+    border: 1px solid #ddd;
+}
+
+.adv4 div:first-of-type {
+    box-sizing: border-box;
+    border-right: 1px solid#ccc;
+}
+
+.adv4 div:nth-of-type(2) img {
+    border-bottom: 1px solid#ccc;
+}
+
+.adv4 div {
+    width: 50%;
+}
+
+.adv5 li {
+    padding: 0.1rem;
+    box-sizing: border-box;
+    width: 46%;
+    display: inline-block;
+}
+.footer{
+    color: #999;
+    font-size: 0.16rem;
+    font-weight: bold;
+}
+.footer .first li {
+    text-align: center;
+    display: inline-block;
+    width: 22%;
+    line-height: 0.5rem;
+}
+
+.footer .first li.line {
+    width: 0.01rem;
+    height: 0.1rem;
+    background: #ccc;
+}
+
+.footer .second li {
+    text-align: center;
+    height: 0.8rem;
+    display: inline-block;
+    width: 31%;
+}
+.footer .second li span {
+    display: inline-block;
+    width: 0.4rem;
+    height: 0.4rem;
+    background-image: url("../images/icon/sprites.png");
+    background-size: 2rem 2rem;
+}
+
+.bottom {
+    width: 100%;
+    text-align: center;
+    background: white;
+    position: fixed;
+    bottom: 0;
+}
+
+.bottom li {
+    width: 19%;
+    display: inline-block;
+}
